@@ -80,5 +80,5 @@ def exibir_tela_inicial():
     print(f"{Style.RESET_ALL}")
     print("Iniciando...")
     print()
-    sleep(4)
+    sleep(3)
     print(f"{Fore.LIGHTCYAN_EX}Inicialização concluída!{Style.RESET_ALL}")
