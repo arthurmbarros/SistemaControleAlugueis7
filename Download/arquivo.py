@@ -19,7 +19,7 @@ def leiadinheiro(msg):
     return valor_float
 
 
-def validar_data(data_str):
+def validar_data(data_str): #Obriga o usuário do sistema a inserir data no padrão: dd/mm/aaaa
     try:
         datetime.datetime.strptime(data_str, '%d/%m/%Y')
         return True

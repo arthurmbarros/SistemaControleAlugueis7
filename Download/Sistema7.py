@@ -19,6 +19,7 @@ def menuprincipal():
             print()
             print(f"{Fore.RED}ERRO! Digite uma opção válida!{Style.RESET_ALL}")
 
+
 def contratos():
     os.system('cls')
     while True:
@@ -34,9 +35,9 @@ def contratos():
             editar_contratos()
         elif resposta == 4:  # APAGAR CONTRATOS
             apagar_contratos()
-        elif resposta == 5:
+        elif resposta == 5: # MENU PRINCIPAL
             menuprincipal()
-        elif resposta == 6:
+        elif resposta == 6: # SAIR
             sair()
         else:
             print()
@@ -127,7 +128,6 @@ def editar_contratos():
                     contratos()
             editar(x, 'contratos', inquilino, 'idinquilinos')
             lercontratos(x)
-
 
         elif resposta == 2:
             os.system('cls')

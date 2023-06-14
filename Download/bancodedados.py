@@ -6,6 +6,7 @@ import colorama
 from colorama import Fore, Style
 colorama.init()
 import os
+
 def lercontratos(x):
     os.system('cls')
     conn = sqlite3.connect('dbalugueisv2.db')
